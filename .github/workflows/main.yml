@@ -28,7 +28,7 @@ jobs:
 
 
       - name: compile
-        run: gcc -o test test1.c
+        run: gcc -o test main.c
       
       - name: run
         run: test
